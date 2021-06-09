@@ -66,15 +66,15 @@ body {
     text-transform: uppercase;
     margin-bottom: 45px;
     position: relative;
-    // &:after {
-    //   content: "";
-    //   position: absolute;
-    //   width: 170px;
-    //   height: 3px;
-    //   background: #ffcf00;
-    //   top: 55px;
-    //   left: 600px;
-    // }
+    &:after {
+      content: "";
+      position: absolute;
+      width: 170px;
+      height: 3px;
+      background: #ffcf00;
+      top: 55px;
+      left: calc(50% - 85px);
+    }
   }
   h2 {
     display: block;
